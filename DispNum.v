@@ -14,7 +14,7 @@
 //    HEX是4个16进制数字
 //    LES控制4个数字是否禁用，1禁用0启用
 //    points控制小数点是否亮，1亮0不亮
-//    RST
+//    RST是时钟信号的一部分，把时钟信号清零，没啥用，给他0就行了。
 //    SEGMENT是输出的显示信号
 /*
 NET "SEGMENT[0]" LOC=AB22| IOSTANDARD = LVCMOS33;	#a
