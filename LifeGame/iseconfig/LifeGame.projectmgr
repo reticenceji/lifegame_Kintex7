@@ -12,13 +12,16 @@
          <ClosedNode>/top D:|logic2020|LifeGame|top.v/imgDisp - imgDisplayModule</ClosedNode>
          <ClosedNode>/top D:|logic2020|LifeGame|top.v/ledDisp - ledDisplayModule</ClosedNode>
          <ClosedNode>/top D:|logic2020|LifeGame|top.v/ps2In - ps2InputModule</ClosedNode>
+         <ClosedNode>/top D:|logic2020|LifeGame|top.v/seg7Disp - seg7DisplayModule</ClosedNode>
       </ClosedNodes>
-      <SelectedItems/>
+      <SelectedItems>
+         <SelectedItem>top (D:/logic2020/LifeGame/top.v)</SelectedItem>
+      </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000189000000020000000000000000000000000200000064ffffffff000000810000000300000002000001890000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000196000000020000000000000000000000000200000064ffffffff000000810000000300000002000001960000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>ledDisp - ledDisplayModule (D:/logic2020/LifeGame/ledDisplayModule.v)</CurrentItem>
+      <CurrentItem>top (D:/logic2020/LifeGame/top.v)</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -41,7 +44,7 @@
       <SelectedItems/>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000000000000000100000000000000000000000000000000000002b3000000040101000100000000000000000000000064ffffffff0000008100000000000000040000003d0000000100000000000000240000000100000000000000780000000100000000000001da0000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000163000000040101000100000000000000000000000064ffffffff0000008100000000000000040000003d00000001000000000000002400000001000000000000007800000001000000000000008a0000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem>vgac.v</CurrentItem>
    </ItemView>
@@ -56,7 +59,7 @@
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem>work</CurrentItem>
    </ItemView>
-   <SourceProcessView>000000ff00000000000000020000012d0000011b01000000050100000002</SourceProcessView>
+   <SourceProcessView>000000ff00000000000000020000015a000000c501000000050100000002</SourceProcessView>
    <CurrentView>Implementation</CurrentView>
    <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VERILOG" guiview="Process" >
       <ClosedNodes>
@@ -68,13 +71,13 @@
          <ClosedNode>User Constraints</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem></SelectedItem>
+         <SelectedItem>Design Summary/Reports</SelectedItem>
       </SelectedItems>
-      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="vertical" >1</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000163000000010000000100000000000000000000000064ffffffff000000810000000000000001000001630000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000152000000010000000100000000000000000000000064ffffffff000000810000000000000001000001520000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem></CurrentItem>
+      <CurrentItem>Design Summary/Reports</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="DESUT_BMM" guiview="Process" >
       <ClosedNodes>
@@ -93,26 +96,26 @@
          <ClosedNode>Design Utilities</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem></SelectedItem>
+         <SelectedItem/>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000163000000010000000100000000000000000000000064ffffffff000000810000000000000001000001630000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem></CurrentItem>
+      <CurrentItem/>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="DESUT_NGC" guiview="Process" >
       <ClosedNodes>
          <ClosedNodesVersion>1</ClosedNodesVersion>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem></SelectedItem>
+         <SelectedItem/>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000157000000010000000100000000000000000000000064ffffffff000000810000000000000001000001570000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem></CurrentItem>
+      <CurrentItem/>
    </ItemView>
    <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
       <ClosedNodes>
@@ -137,12 +140,12 @@
          <ClosedNode>Design Utilities</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem></SelectedItem>
+         <SelectedItem/>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000157000000010000000100000000000000000000000064ffffffff000000810000000000000001000001570000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem></CurrentItem>
+      <CurrentItem/>
    </ItemView>
 </Project>
