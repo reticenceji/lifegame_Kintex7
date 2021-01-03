@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "/home/reticence/code/lifegame_Kintex7/LifeGame/keyboard_test_isim_beh.exe" -prj "/home/reticence/code/lifegame_Kintex7/LifeGame/keyboard_test_beh.prj" "work.keyboard_test" "work.glbl" 

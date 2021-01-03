@@ -32,6 +32,25 @@ module ps2InputModule(clk, rst,
 	wire [15:0] xkey;
 	keyboard kbd(clk, rst, ps2_clk, ps2_data, xkey);
 	
+	
+	assign usr_op = op;
 	//TODO: translate xkey to op, use switch-case
-
+	always @ (posedge clk or negedge rst) begin
+		if (!rst) begin
+			op<=0;
+		end
+		else begin
+			case (xkey[7:0])
+				8'h1D: op<=1;	//W
+				8'h1B: op<=2;	//S
+				8'h1C: op<=3;	//A
+				8'h23: op<=4;	//D
+				8'h5A: op<=5;	//Enter
+				8'h55: op<=6;	//=
+				8'h4E: op<=7;	//-
+				8'h29: op<=8;	//Space
+				default: op<=0;	//other
+			endcase
+		end
+	end
 endmodule

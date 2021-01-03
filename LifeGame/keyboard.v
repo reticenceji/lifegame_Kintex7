@@ -49,7 +49,7 @@ module keyboard(clk_25mhz, clr,
 			if(ps2d_filter == 8'b1111_1111)
 				PS2Df <= 1;
 			else if(ps2d_filter == 8'b0000_0000)
-			PS2Df <= 0;
+				PS2Df <= 0;
 		end
 	end
 //shift register used to clock in scan codes from PS2
